@@ -89,6 +89,9 @@ rouille_compilogenese::rouille! {
             "sentier" => "isize",
             "diviser" => "split",
             "collecter" => "collect",
+            "dériver" => "derive",
+            "Copie" => "Copy",
+            "Cloner" => "Clone",
             _ => &identifiant_chaîne,
         };
 
