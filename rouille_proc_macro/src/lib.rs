@@ -83,6 +83,12 @@ rouille_compilogenese::rouille! {
             "Ponctuation" => "Punct",
             "Litéral" => "Literal",
             "macro_procédurale" => "proc_macro",
+            "chaîne" => "str",
+            "inclure_chaîne" => "include_str",
+            "nsentier" => "usize",
+            "sentier" => "isize",
+            "diviser" => "split",
+            "collecter" => "collect",
             _ => &identifiant_chaîne,
         };
 
